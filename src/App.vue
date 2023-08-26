@@ -25,22 +25,22 @@
       content-class="bg-grey-2"
     >
       <q-list>
-        <q-item clickable tag="a" target="_blank" href="https://github.com/ealenn/">
+        <q-item clickable tag="a" target="_blank" href="dummy.html">
           <q-item-section avatar>
             <q-icon name="fas fa-code" />
           </q-item-section>
           <q-item-section>
-            <q-item-label>Github</q-item-label>
-            <q-item-label caption>github.com/ealenn</q-item-label>
+            <q-item-label>About Us</q-item-label>
+            <q-item-label caption>Team info</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" target="_blank" href="https://twitter.com/Ealen_">
+        <q-item clickable tag="a" target="_blank" href="Source code">
           <q-item-section avatar>
             <q-icon name="fab fa-twitter" />
           </q-item-section>
           <q-item-section>
-            <q-item-label>Twitter</q-item-label>
-            <q-item-label caption>@Ealen_</q-item-label>
+            <q-item-label>Source code</q-item-label>
+            <q-item-label caption>sourcelink</q-item-label>
           </q-item-section>
         </q-item>
       </q-list>
@@ -53,21 +53,6 @@
   </q-layout>
 </template>
 
-<script>
-import LanguagesButtons from '@/components/Languages-Buttons'
-
-export default {
-  name: 'LayoutDefault',
-  data () {
-    return {
-      leftDrawerOpen: false
-    }
-  },
-  components: {
-    LanguagesButtons
-  }
-}
-</script>
 
 <style>
 </style>

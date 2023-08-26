@@ -1,7 +1,5 @@
 <template>
     <div>
-        <q-btn flat v-on:click="updateLocal('en')"><flag class="flag-text" iso="us" /> English</q-btn>
-        <q-btn flat v-on:click="updateLocal('fr')"><flag class="flag-text" iso="fr" /> Français</q-btn>
     </div>
 </template>
 
