@@ -53,6 +53,5 @@
   </q-layout>
 </template>
 
-
 <style>
 </style>
